@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"go-todolist/configs"
+	"golang-master-jwt/configs"
 
 	"gorm.io/gorm"
 )

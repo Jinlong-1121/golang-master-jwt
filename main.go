@@ -2,15 +2,15 @@ package main
 
 import (
 	"fmt"
-	"go-todolist/controllers"
-	"go-todolist/cors"
-	"go-todolist/docs"
+	"golang-master-jwt/controllers"
+	"golang-master-jwt/cors"
+	"golang-master-jwt/docs"
 	"io"
 	"net/http"
 	"os"
 	"time"
 
-	_ "go-todolist/docs"
+	_ "golang-master-jwt/docs"
 
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
@@ -72,9 +72,9 @@ func setupRouter() *gin.Engine {
 	{
 		// v1.GET("/ping.php", pingHandler)
 		// v1.POST("/ping", pingPostHandler)
-		Tasklist := v1.Group("/JwtCreator")
+		JwtCreator := v1.Group("/JwtCreator")
 		{
-			Tasklist.GET("/GetDepartemen", initrepo.GetDepartemen)
+			JwtCreator.GET("/TaskListJwt", initrepo.TaskListJwt)
 
 		}
 	}

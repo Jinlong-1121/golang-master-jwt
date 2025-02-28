@@ -8,7 +8,7 @@ import (
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 
-	helper "go-todolist/helpers"
+	helper "golang-master-jwt/helpers"
 )
 
 var (

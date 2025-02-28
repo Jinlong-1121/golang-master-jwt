@@ -1,0 +1,14 @@
+{"client_ip":"::1", "access_time": "2025-02-28 14:35:48", "method": "GET", "endpoint": "/swagger/index.html", "status_code": 200, "latency": "13.425359ms", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/02/28 - 14:35:48 | 200 |   13.834245ms |             ::1 | GET      "/swagger/index.html"
+{"client_ip":"::1", "access_time": "2025-02-28 14:35:49", "method": "GET", "endpoint": "/swagger/swagger-ui.css", "status_code": 200, "latency": "10.455511ms", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/02/28 - 14:35:49 | 200 |   13.716134ms |             ::1 | GET      "/swagger/swagger-ui.css"
+{"client_ip":"::1", "access_time": "2025-02-28 14:35:49", "method": "GET", "endpoint": "/swagger/swagger-ui-standalone-preset.js", "status_code": 200, "latency": "10.643681ms", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/02/28 - 14:35:49 | 200 |   10.654999ms |             ::1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+{"client_ip":"::1", "access_time": "2025-02-28 14:35:49", "method": "GET", "endpoint": "/swagger/swagger-ui-bundle.js", "status_code": 200, "latency": "454.521µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/02/28 - 14:35:49 | 200 |    3.656874ms |             ::1 | GET      "/swagger/swagger-ui-bundle.js"
+{"client_ip":"::1", "access_time": "2025-02-28 14:35:49", "method": "GET", "endpoint": "/swagger/favicon-32x32.png", "status_code": 200, "latency": "8.556741ms", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/02/28 - 14:35:49 | 200 |   10.105085ms |             ::1 | GET      "/swagger/favicon-32x32.png"
+{"client_ip":"::1", "access_time": "2025-02-28 14:35:49", "method": "GET", "endpoint": "/swagger/doc.json", "status_code": 200, "latency": "25.405903ms", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/02/28 - 14:35:49 | 200 |   25.457849ms |             ::1 | GET      "/swagger/doc.json"
+{"client_ip":"::1", "access_time": "2025-02-28 14:35:52", "method": "GET", "endpoint": "/api/v1/JwtCreator/TaskListJwt", "status_code": 200, "latency": "5.473389ms", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/02/28 - 14:35:52 | 200 |    5.665737ms |             ::1 | GET      "/api/v1/JwtCreator/TaskListJwt"
