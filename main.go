@@ -72,7 +72,7 @@ func setupRouter() *gin.Engine {
 	{
 		// v1.GET("/ping.php", pingHandler)
 		// v1.POST("/ping", pingPostHandler)
-		Tasklist := v1.Group("/Tasklist")
+		Tasklist := v1.Group("/JwtCreator")
 		{
 			Tasklist.GET("/GetDepartemen", initrepo.GetDepartemen)
 
