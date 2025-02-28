@@ -74,7 +74,7 @@ func setupRouter() *gin.Engine {
 		// v1.POST("/ping", pingPostHandler)
 		JwtCreator := v1.Group("/JwtCreator")
 		{
-			JwtCreator.GET("/TaskListJwt", initrepo.TaskListJwt)
+			JwtCreator.POST("/TaskListJwt", initrepo.TaskListJwt)
 
 		}
 	}

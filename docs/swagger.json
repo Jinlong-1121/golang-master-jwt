@@ -5,7 +5,7 @@
     },
     "paths": {
         "/JwtCreator/TaskListJwt": {
-            "get": {
+            "post": {
                 "responses": {}
             }
         }

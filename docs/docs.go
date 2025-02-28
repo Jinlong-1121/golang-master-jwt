@@ -16,7 +16,7 @@ const docTemplate = `{
     "basePath": "{{.BasePath}}",
     "paths": {
         "/JwtCreator/TaskListJwt": {
-            "get": {
+            "post": {
                 "responses": {}
             }
         }

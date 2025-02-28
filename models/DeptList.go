@@ -1,7 +1,7 @@
 package models
 
 type JwtFetch struct {
-	Jwt string `json:"jwt" binding:"required"`
+	Userstampt string `json:"userstampt" binding:"required"`
 }
 
 const (
