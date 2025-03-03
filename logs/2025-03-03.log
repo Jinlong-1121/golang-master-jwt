@@ -1,0 +1,24 @@
+{"client_ip":"::1", "access_time": "2025-03-03 14:43:23", "method": "GET", "endpoint": "/swagger/index.com", "status_code": 404, "latency": "102.949µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/03/03 - 14:43:23 | 404 |     359.343µs |             ::1 | GET      "/swagger/index.com"
+{"client_ip":"::1", "access_time": "2025-03-03 14:43:24", "method": "GET", "endpoint": "/favicon.ico", "status_code": 404, "latency": "2.267µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/03/03 - 14:43:24 | 404 |      89.743µs |             ::1 | GET      "/favicon.ico"
+{"client_ip":"::1", "access_time": "2025-03-03 14:43:28", "method": "GET", "endpoint": "/swagger/", "status_code": 404, "latency": "71.239µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/03/03 - 14:43:28 | 404 |      169.35µs |             ::1 | GET      "/swagger/"
+{"client_ip":"::1", "access_time": "2025-03-03 14:43:33", "method": "GET", "endpoint": "/swagger/index", "status_code": 404, "latency": "91.092µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/03/03 - 14:43:33 | 404 |     202.535µs |             ::1 | GET      "/swagger/index"
+{"client_ip":"::1", "access_time": "2025-03-03 14:43:40", "method": "GET", "endpoint": "/swagger/index.com", "status_code": 404, "latency": "34.64µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/03/03 - 14:43:40 | 404 |     136.531µs |             ::1 | GET      "/swagger/index.com"
+{"client_ip":"::1", "access_time": "2025-03-03 14:43:54", "method": "GET", "endpoint": "/swagger/", "status_code": 404, "latency": "25.453µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/03/03 - 14:43:54 | 404 |     104.568µs |             ::1 | GET      "/swagger/"
+{"client_ip":"::1", "access_time": "2025-03-03 14:44:14", "method": "POST", "endpoint": "/JwtCreator/TaskListJwt", "status_code": 404, "latency": "1.813µs", "user_agent": "PostmanRuntime/7.43.0", "error": ""}
+[GIN] 2025/03/03 - 14:44:14 | 404 |     163.123µs |             ::1 | POST     "/JwtCreator/TaskListJwt"
+{"client_ip":"::1", "access_time": "2025-03-03 14:44:15", "method": "POST", "endpoint": "/JwtCreator/TaskListJwt", "status_code": 404, "latency": "1.815µs", "user_agent": "PostmanRuntime/7.43.0", "error": ""}
+[GIN] 2025/03/03 - 14:44:15 | 404 |     136.097µs |             ::1 | POST     "/JwtCreator/TaskListJwt"
+{"client_ip":"::1", "access_time": "2025-03-03 14:44:23", "method": "POST", "endpoint": "/JwtCreator/TaskListJwt", "status_code": 404, "latency": "1.78µs", "user_agent": "PostmanRuntime/7.43.0", "error": ""}
+[GIN] 2025/03/03 - 14:44:23 | 404 |      71.631µs |             ::1 | POST     "/JwtCreator/TaskListJwt"
+{"client_ip":"::1", "access_time": "2025-03-03 14:44:59", "method": "POST", "endpoint": "/api/v1/JwtCreator/TaskListJwt", "status_code": 200, "latency": "996.318µs", "user_agent": "PostmanRuntime/7.43.0", "error": ""}
+[GIN] 2025/03/03 - 14:44:59 | 200 |    1.088031ms |             ::1 | POST     "/api/v1/JwtCreator/TaskListJwt"
+{"client_ip":"::1", "access_time": "2025-03-03 15:00:18", "method": "GET", "endpoint": "/", "status_code": 404, "latency": "2.117µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/03/03 - 15:00:18 | 404 |     125.844µs |             ::1 | GET      "/"
+{"client_ip":"::1", "access_time": "2025-03-03 15:16:14", "method": "GET", "endpoint": "/", "status_code": 404, "latency": "2.066µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36", "error": ""}
+[GIN] 2025/03/03 - 15:16:14 | 404 |     130.942µs |             ::1 | GET      "/"
