@@ -17,7 +17,37 @@ const docTemplate = `{
     "paths": {
         "/JwtCreator/TaskListJwt": {
             "post": {
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "description": "Inserting Param",
+                        "name": "file",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/models.JwtFetch"
+                        }
+                    }
+                ],
                 "responses": {}
+            }
+        }
+    },
+    "definitions": {
+        "models.JwtFetch": {
+            "type": "object",
+            "required": [
+                "userstampt"
+            ],
+            "properties": {
+                "userstampt": {
+                    "type": "string"
+                }
             }
         }
     }

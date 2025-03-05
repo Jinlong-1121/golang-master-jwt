@@ -14,7 +14,10 @@ import (
 
 // TaskListJwt godoc
 //
-//	@Router			/JwtCreator/TaskListJwt [Post]
+// @Accept  json
+// @Produce json
+// @Param file body models.JwtFetch true "Inserting Param"
+// @Router			/JwtCreator/TaskListJwt [Post]
 func (repository *InitRepo) TaskListJwt(c *gin.Context) {
 	var HasilJwt models.JwtFetch
 

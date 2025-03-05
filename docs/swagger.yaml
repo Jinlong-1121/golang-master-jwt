@@ -1,7 +1,26 @@
+definitions:
+  models.JwtFetch:
+    properties:
+      userstampt:
+        type: string
+    required:
+    - userstampt
+    type: object
 info:
   contact: {}
 paths:
   /JwtCreator/TaskListJwt:
     post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Inserting Param
+        in: body
+        name: file
+        required: true
+        schema:
+          $ref: '#/definitions/models.JwtFetch'
+      produces:
+      - application/json
       responses: {}
 swagger: "2.0"
