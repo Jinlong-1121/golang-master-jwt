@@ -1,0 +1,14 @@
+{"client_ip":"127.0.0.1", "access_time": "2025-05-01 19:23:20", "method": "GET", "endpoint": "/swagger/index.html", "status_code": 200, "latency": "574.982µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "error": ""}
+[GIN] 2025/05/01 - 19:23:20 | 200 |     771.034µs |       127.0.0.1 | GET      "/swagger/index.html"
+{"client_ip":"127.0.0.1", "access_time": "2025-05-01 19:23:20", "method": "GET", "endpoint": "/swagger/swagger-ui.css", "status_code": 200, "latency": "332.308µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "error": ""}
+[GIN] 2025/05/01 - 19:23:20 | 200 |     438.952µs |       127.0.0.1 | GET      "/swagger/swagger-ui.css"
+{"client_ip":"127.0.0.1", "access_time": "2025-05-01 19:23:20", "method": "GET", "endpoint": "/swagger/swagger-ui-bundle.js", "status_code": 200, "latency": "1.404166ms", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "error": ""}
+[GIN] 2025/05/01 - 19:23:20 | 200 |    1.492892ms |       127.0.0.1 | GET      "/swagger/swagger-ui-bundle.js"
+{"client_ip":"127.0.0.1", "access_time": "2025-05-01 19:23:20", "method": "GET", "endpoint": "/swagger/swagger-ui-standalone-preset.js", "status_code": 200, "latency": "493.716µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "error": ""}
+[GIN] 2025/05/01 - 19:23:20 | 200 |     555.837µs |       127.0.0.1 | GET      "/swagger/swagger-ui-standalone-preset.js"
+{"client_ip":"127.0.0.1", "access_time": "2025-05-01 19:23:20", "method": "GET", "endpoint": "/swagger/favicon-16x16.png", "status_code": 200, "latency": "57.293µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "error": ""}
+[GIN] 2025/05/01 - 19:23:20 | 200 |     133.301µs |       127.0.0.1 | GET      "/swagger/favicon-16x16.png"
+{"client_ip":"127.0.0.1", "access_time": "2025-05-01 19:23:20", "method": "GET", "endpoint": "/swagger/doc.json", "status_code": 200, "latency": "165.055µs", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "error": ""}
+[GIN] 2025/05/01 - 19:23:20 | 200 |     225.702µs |       127.0.0.1 | GET      "/swagger/doc.json"
+{"client_ip":"127.0.0.1", "access_time": "2025-05-01 19:23:29", "method": "POST", "endpoint": "/api/v1/JwtCreator/TaskListJwt", "status_code": 200, "latency": "1.437776ms", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0", "error": ""}
+[GIN] 2025/05/01 - 19:23:29 | 200 |    1.513497ms |       127.0.0.1 | POST     "/api/v1/JwtCreator/TaskListJwt"
